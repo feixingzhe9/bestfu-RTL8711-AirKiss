@@ -1,0 +1,45 @@
+﻿<setting>
+  <download>
+    <FlashSize>0</FlashSize>
+    <BOOTPath>image1.p.bin</BOOTPath>
+    <FW1Path>ota.bin</FW1Path>
+    <FW2Path>ota.bin</FW2Path>
+    <FW2Offset />
+    <USERPath>C:\Users\Administrator\Desktop\ram_all.bin</USERPath>
+    <USEROffset>0x0</USEROffset>
+    <Trigger1Ena>False</Trigger1Ena>
+    <Trigger1Level>-1</Trigger1Level>
+    <Trigger1Port>-1</Trigger1Port>
+    <Trigger1Pin>-1</Trigger1Pin>
+    <Trigger2Ena>False</Trigger2Ena>
+    <Trigger2Level>-1</Trigger2Level>
+    <Trigger2Port>-1</Trigger2Port>
+    <Trigger2Pin>-1</Trigger2Pin>
+    <VerifyBOOT>False</VerifyBOOT>
+    <VerifyFW1>False</VerifyFW1>
+    <VerifyFW2>False</VerifyFW2>
+    <VerifyUSER>True</VerifyUSER>
+    <JlinkPath>C:\Program Files (x86)\SEGGER\JLink_V512f\</JlinkPath>
+    <AdvMode>False</AdvMode>
+    <FactoryMode>False</FactoryMode>
+    <EraseSkipCal>False</EraseSkipCal>
+  </download>
+  <generate>
+    <FlashSize>0</FlashSize>
+    <DefaultPath>ram_all.bin</DefaultPath>
+    <OTAPath>ota.bin</OTAPath>
+    <OTAOffset />
+    <USER1Path>user.bin</USER1Path>
+    <USER1Offset />
+    <SAVEPath>output.bin</SAVEPath>
+    <Trigger1Ena>False</Trigger1Ena>
+    <Trigger1Level>-1</Trigger1Level>
+    <Trigger1Port>-1</Trigger1Port>
+    <Trigger1Pin>-1</Trigger1Pin>
+    <Trigger2Ena>False</Trigger2Ena>
+    <Trigger2Level>-1</Trigger2Level>
+    <Trigger2Port>-1</Trigger2Port>
+    <Trigger2Pin>-1</Trigger2Pin>
+    <BootOption>1</BootOption>
+  </generate>
+</setting>
